@@ -1,9 +1,185 @@
 
 
 
+/*ESTILOS DE APP JS*/
+/* .containerApp{
+    border:2px solid black;
+    
+
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*ESTILOS DE FORMULARIO*/
+.tituloLibreria{
+margin-left:40% ;
+}
+.inputLibro{
+    margin-left: 0%;
+    
+}
+.formulario{
+    margin-left: 30%;
+    
+    height: 25%;
+    width: 30%;
+}
+
+
+/*Listado de libros*/
+/* .contenedor{
+    border: 2px solid rgba(4, 20, 90, 0.534);
+} */
+
+/*Libros*/
+.tarjeta{
+    
+    box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.75);
+    
+}
+h1 {     color: white;     text-transform: uppercase;     border-right: 2px solid black;     width: 9ch;     white-space: nowrap;     overflow: hidden;     animation: typing 3s steps(14) infinite alternate;     font-family: 'Cutive Mono', monospace;} @keyframes typing{ from{     width: 0px;} to{     width:210px;} } ; 
+.letras{
+    color:white !important;
+}
+
+.tarjeta div h3{
+    font-size: 20px;
+    text-align: start;
+}
+.tarjeta div h4{
+   font-size: 1rem;
+    margin-bottom: 5%;
+    text-align: start;
+}
+
+.imagen{
+    height: 250px;
+    
+}
+
+.botonCerrar{
+    background-color: #820014;
+}
+
+.layout{
+    background: none !important; 
+}
+
+
+
+.botones{
+    width: 100%;
+}
+
+
+.fondo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1441&q=80);    
+   
+    
+    
+    
+}
+.fondo h3{
+    text-align: center;
+}
+.cajaInput{
+
+    background-color:  rgba(72, 78, 99, 0.644) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+    border: 0px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+
+    
+    
+  
+    
+}
+.cajaInput button{
+ 
+    margin-top: 10px;
+    font-weight:bolder;
+}
+
+.avatar{
+  
+    
+    width:250px;   
+     height:250px;     
+     border-radius:100%;     
+      border:10px solid #666;
+     
+}
+.text-asuar{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+    font-weight: bolder;
+}
+.usuar{
+    
+    width: 80vw;
+    border: solid 1px white ;
+    margin: 35px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.9;
+    margin-left: 100px !important;
+}
+.letraAutor{
+    text-align: center;
+    color: #fcffe6 !important;
+    
+
+}
+
 .futer{
+   
     background-color: #343a40!important ;
     color: #fff;
-    height: 80px;
-    padding-top: 1.5%;
+    height: 50px;
+    padding-top: 1%;
+}
+.navegador{
+   
+    width: 100%;
+    left: 0 !important;
+   
+}
+.bordes{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bordesCard{
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    text-align: end;
+}
+.botonDelete{
+    cursor: pointer;
+}
+.cardAutor{
+    
+    width: 16rem;
+    
+}
+.imagenAutor{
+    height: 14rem;
+}
+.cardBodyAutor{
+    position: relative;
+    height: 8rem;
 }

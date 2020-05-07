@@ -7,9 +7,9 @@ const Footer =()=>{
     return(
 
   <Row className="futer">
-    <Col sm >&copy; 2020 Powered by ThreeCoffees</Col>
-    <Col sm>Three <LocalCafeIcon /> Coffees</Col>
-    <Col sm><MailOutlineIcon/>contact@ThreeCoffees.com</Col>
+    <Col sm style={{textAlign:"center"}} >&copy; 2020 Powered by ThreeCoffees</Col>
+    <Col sm style={{textAlign:"center"}}> Three <LocalCafeIcon /> Coffees</Col>
+    <Col sm style={{textAlign:"center"}}><MailOutlineIcon/>contact@ThreeCoffees.com</Col>
   </Row>
 
     );
